@@ -188,6 +188,7 @@ class WakeOnLan(object):
     @staticmethod
     def usage() -> None:
         print(
+            '\n'
             'Usage: wol.py [-p] [hostname|list]\n'
             '\n'
             '-h            Print this text\n\n'
