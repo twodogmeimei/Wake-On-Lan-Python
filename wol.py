@@ -216,7 +216,7 @@ class WakeOnLan(object):
             arg = sys_args[-1]
             # Use MAC addresses with any separators.
             if arg == 'list':
-                print('Configured Hosts:')
+                print('\nConfigured Hosts:\n')
                 for i in config:
                     if i != 'General':
                         mac = "Err: no mac configured"
